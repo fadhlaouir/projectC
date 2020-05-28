@@ -2,3 +2,19 @@
        500      lait      0.97
        890      coca      1.22
 TOTALE:3.54
+creme_glacee       1009       3.56          2       7.12
+   fromage        167       1.55          3       4.65
+      lait        500       0.97          5       4.85
+TOTALE:6.08
+serviette_papier         34       0.87          3       2.61
+  crevette        763      33.62          5     168.10
+      coca        890       1.22          2       2.44
+       jus        123       1.35          1       1.35
+TOTALE:37.06
+_____
+ creme_glacee       1009       3.56          2       7.12
+_____
+    fromage        167       1.55          4       6.20
+_____
+       lait        500       0.97          2       1.94
+TOTALE:6.08

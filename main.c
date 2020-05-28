@@ -69,7 +69,7 @@ while ( strcmp(tempCode, stop) ){ //strcmp comparer entre 2 string
 printf("\n Veuillez saisir le code article. Tapez F pour terminer: ");
 scanf("%s", tempCode);
 printf("Donner nombre de produits: ");
-scanf("%d", &minSupp);
+scanf("%d", &minSupp); //qtt
 
 for (i = 0; i < bienstotal; ++i){
 	if(strcmp(tempCode, biens[i].code) == 0){
@@ -89,7 +89,8 @@ printf("_____________________________________\n\n");
 printf("      MERCI DE VOTRE VISITE!     \n");
 printf("_____________________________________\n");
 printf("         Voici votre reçu:       \n\n");
-printf("%10s %20s %10s %20s %s", " Libelle ", " Code "," Prix "," Supp", " QTT\n");
+printf("%s %20s %10s %10s %10s", " Libelle ", " Code "," Prix ", " QTT", " Supp\n");
+
 
 
 
@@ -99,14 +100,15 @@ printf("%10s %20s %10s %20s %s", " Libelle ", " Code "," Prix "," Supp", " QTT\n
    rslt = fopen("resultat.txt","a");
 
 for (j= 0; j < total; ++j){
-printf("%10s %10s %10.2f %10.2f %10d\n", receipt[j].receiptLibelle, receipt[j].receiptCode, receipt[j].receiptPrix, receipt[j].S, receipt[j].minSupp);
-
-
-
-fprintf(idt,"%10s%10s%10.2f\n", receipt[j].receiptCode, receipt[j].receiptLibelle,  receipt[j].receiptPrix); //for identifiant
-fprintf (bdt, "%10s",  receipt[j].receiptCode); //for Bdt
-fprintf(rslt,"%10s%10s%10.2f\n", receipt[j].receiptCode, receipt[j].receiptLibelle,  receipt[j].receiptPrix); //for resultat
+printf("%10s %10s %10.2f %10d %10.2f\n", receipt[j].receiptLibelle, receipt[j].receiptCode, receipt[j].receiptPrix, receipt[j].minSupp, receipt[j].S);
+fprintf(idt,"_____\n %10s%10s%10.2f\n", receipt[j].receiptCode, receipt[j].receiptLibelle,  receipt[j].receiptPrix); //for identifiant
+fprintf (bdt, "_____\n %10s\n",  receipt[j].receiptCode); //for Bdt
+fprintf(rslt,"_____\n %10s %10s %10.2f %10d %10.2f\n", receipt[j].receiptLibelle, receipt[j].receiptCode, receipt[j].receiptPrix, receipt[j].minSupp, receipt[j].S); //for resultat
 }
+
+//
+
+
 printf("\n_____________________________________\n");
 printf("          TOTALE:%.2f            \n", ttlcost);
 fprintf(rslt,"TOTALE:%.2f\n", ttlcost); //for resultat

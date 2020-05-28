@@ -1,3 +1,16 @@
        123       jus      1.35
        500      lait      0.97
        890      coca      1.22
+      1009creme_glacee      3.56
+       167   fromage      1.55
+       500      lait      0.97
+        34serviette_papier      0.87
+       763  crevette     33.62
+       890      coca      1.22
+       123       jus      1.35
+_____
+       1009creme_glacee      3.56
+_____
+        167   fromage      1.55
+_____
+        500      lait      0.97
