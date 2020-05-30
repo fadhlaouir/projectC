@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<CodeBlocks_layout_file>
-	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="" />
-</CodeBlocks_layout_file>
 [Editors]
 Order=0
-Focused=0
+Focused=-1
 [Editor_0]
-CursorCol=2
-CursorRow=85
-TopLine=1
+CursorCol=60
+CursorRow=94
+TopLine=82
 LeftChar=1

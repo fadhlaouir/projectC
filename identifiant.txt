@@ -1,16 +1,20 @@
-       123       jus      1.35
-       500      lait      0.97
-       890      coca      1.22
-      1009creme_glacee      3.56
-       167   fromage      1.55
+     00310  Poulette     35.00
+     00310  Poulette     35.00
+     00310  Poulette     35.00
        500      lait      0.97
         34serviette_papier      0.87
+     00310  Poulette     35.00
+       500      lait      0.97
+     00710  Agresser     15.50
+       500      lait      0.97
        763  crevette     33.62
+        34serviette_papier      0.87
        890      coca      1.22
-       123       jus      1.35
-_____
-       1009creme_glacee      3.56
-_____
-        167   fromage      1.55
-_____
-        500      lait      0.97
+       500      lait      0.97
+       763  crevette     33.62
+        34serviette_papier      0.87
+       890      coca      1.22
+       500      lait      0.97
+       763  crevette     33.62
+        34serviette_papier      0.87
+       890      coca      1.22
