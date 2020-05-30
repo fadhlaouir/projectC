@@ -2,10 +2,21 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="" />
+		<Option title="tickets" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Build />
-		<Extensions />
+		<Build>
+			<Target title="default">
+				<Option output="tickets" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

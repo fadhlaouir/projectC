@@ -18,3 +18,10 @@
        763  crevette     33.62
         34serviette_papier      0.87
        890      coca      1.22
+     00712       bol     25.00
+       500      lait      0.97
+       500      lait      0.97
+       500      lait      0.97
+       763  crevette     33.62
+        34serviette_papier      0.87
+       890      coca      1.22

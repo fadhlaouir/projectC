@@ -26,3 +26,13 @@ TOTALE:36.68
 serviette_papier         34       0.87          2       1.74
       coca        890       1.22          1       1.22
 TOTALE:36.68
+       bol      00712      25.00          5     125.00
+      lait        500       0.97          7       6.79
+TOTALE:25.97
+      lait        500       0.97         10       9.70
+TOTALE:9.70
+      lait        500       0.97          3       2.91
+  crevette        763      33.62          8     268.96
+serviette_papier         34       0.87          2       1.74
+      coca        890       1.22          1       1.22
+TOTALE:274.83

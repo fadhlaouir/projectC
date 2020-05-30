@@ -21,35 +21,35 @@ struct receipt
 static typeDuBien biens[] =
     {
 
-        {"00712", "bol", 25.00},
-        {"1009", "creme_glacee", 3.56},
-        {"167", "fromage", 1.55},
-        {"123", "jus", 1.35},
-        {"500", "lait", 0.97},
-        {"890", "coca", 1.22},
+        {"00712", "bol", 25.00},  
+        {"123", "jus", 1.35},    
         {"654", "chocolat", 2.78},
         {"763", "crevette", 33.62},
         {"34", "serviette_papier", 0.87},
-                {"00310", "Poulette", 35.00},
+    	{"00310", "Poulette", 35.00},
         {"00322", "Du boeuf", 45.00},
+        {"167", "fromage", 1.55},
         {"00323", "Poisson", 40.00},
         {"00510", "T-shirt", 75.00},
+        {"1009", "creme_glacee", 3.56},
         {"00511", "Pantalon", 120.00},
         {"00512", "Manteau", 100.00},
         {"00513", "Sauteuse", 85.00},
+        {"500", "lait", 0.97},
+        {"890", "coca", 1.22},
         {"00710", "Agresser", 15.50},
         {"00711", "Poêle à frire", 200.00},
 };
 
-static int bienstotal = sizeof(biens) / sizeof(biens[0]);
+static int bienstotale = sizeof(biens) / sizeof(biens[0]);
 
 void afficher_tab()
 {
     int i;
 
-    for (i = 0; i < bienstotal; i++)
-        printf("%s %s %f\n", biens[i].code, biens[i].libelle, biens[i].prix);
-    printf("\n Nombres totales des biens: %d\n", bienstotal);
+    for (i = 0; i < bienstotale; i++)
+    printf("%s %s %f\n", biens[i].code, biens[i].libelle, biens[i].prix);
+    printf("\n Nombres totales des biens: %d\n", bienstotale);
 }
 
 
@@ -84,7 +84,7 @@ int main(void)
         printf("Donner nombre de produits: ");
         scanf("%d", &minSupp); //qtt
 
-        for (i = 0; i < bienstotal; ++i)
+        for (i = 0; i < bienstotale; ++i)
         {
             if (strcmp(tempCode, biens[i].code) == 0)
             {
@@ -93,7 +93,7 @@ int main(void)
                 receipt[total].receiptPrix = biens[i].prix;
                 receipt[total].S = biens[i].prix * minSupp;
                 receipt[total].minSupp = minSupp;
-                ttlcost += biens[i].prix;
+                ttlcost += receipt[total].S;
                 total++;
             }
         }
